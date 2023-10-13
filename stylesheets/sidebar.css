@@ -1,0 +1,33 @@
+.sidebar {
+    display: block;
+    width: 250px;
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    opacity: .1;
+    transition: all .5s ease-out;
+}
+.sidebar:hover {
+    opacity: 1;
+    transition: all .2s ease-out;
+}
+.sidebar ol {
+    list-style-type: none;
+}
+.sidebar li {
+    margin: 4px 0;   
+    line-height: 20px;
+    font-size: 12px; 
+}
+.sidebar ol > ol {
+    margin-left: 10px;
+    color: #777;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.sidebar h4 {
+    font-size: 17px;
+    font-weight:bold;
+}
