@@ -6,14 +6,11 @@ body {
 article a {
     color: inherit;
 }
-article h1,
-article h2,
-article h3,
-article h4,
-article p,
-article ul,
-article ol,
-article blockquote {
+* {
+    box-sizing: border-box;
+}
+
+article * {
     width: 650px;
     margin: 0 auto;
 }
